@@ -1,5 +1,5 @@
-# Use a Maven image to build the project
-FROM maven:3.8.6-openjdk-17 AS build
+# Use Maven with OpenJDK 17 (choose a supported tag from Docker Hub)
+FROM maven:3.8.7-openjdk-17 AS build
 
 # Set working directory inside the container
 WORKDIR /app
