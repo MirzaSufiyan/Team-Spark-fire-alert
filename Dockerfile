@@ -1,14 +1,11 @@
 # Use an official Tomcat image as a base
 FROM tomcat:9.0-jdk11-openjdk
 
-# Set the working directory inside the container
-WORKDIR /usr/local/tomcat/webapps/
+# Copy your webapp files (JSP, HTML, etc.) to the webapps directory in Tomcat
+COPY src/main/webapp/ /usr/local/tomcat/webapps/ROOT/
 
-# Copy the contents of the webapp directory (JSPs, web.xml, etc.) to the webapps directory of Tomcat
-COPY src/main/webapp/ .
-
-# Expose port 8080 for the Tomcat server
+# Expose port 8080 for Tomcat
 EXPOSE 8080
 
-# Start Tomcat server
+# Start Tomcat
 CMD ["catalina.sh", "run"]
