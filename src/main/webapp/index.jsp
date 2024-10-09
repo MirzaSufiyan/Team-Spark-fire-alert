@@ -10,7 +10,7 @@
 <body>
 <h1>Welcome to Fire alert system</h1>
 <div class="contain" >
-<form action=/login.java method="post" class="log">
+<form action=login method="post" class="log">
 <div class="inp1">
 	<div class="inp1" id="ph"><label>Phone Number: </label></div><div class="inp" id="ph"><input class="log" id="ipt" type="text" id="phnum" name="phnum" required placeholder="" ><hr></div></div>
 <div class="inp2">
