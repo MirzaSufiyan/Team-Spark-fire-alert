@@ -14,7 +14,7 @@
     <!-- Add servlet definitions and mappings here if needed -->
 <servlet>
     <servlet-name>UserRegistrationServlet</servlet-name>
-    <servlet-class>UserRegistrationServlet</servlet-class>
+    <servlet-class>MyPackage.UserRegistrationServlet</servlet-class>
 </servlet>
 
 <servlet-mapping>
@@ -24,7 +24,7 @@
 
 <servlet>
     <servlet-name>login</servlet-name>
-    <servlet-class>login</servlet-class>
+    <servlet-class>MyPackage.login</servlet-class>
 </servlet>
 
 <servlet-mapping>
