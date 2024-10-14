@@ -15,7 +15,7 @@
     <!-- Add servlet definitions and mappings here if needed -->
          <servlet>
     <servlet-name>login</servlet-name>
-    <servlet-class>com.MyPackage.login</servlet-class>
+    <servlet-class>MyPackage.login</servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>login</servlet-name>
@@ -23,7 +23,7 @@
 </servlet-mapping>
 
     <servlet-name>User</servlet-name>
-    <servlet-class>com.MyPackage.User</servlet-class>
+    <servlet-class>MyPackage.User</servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>User</servlet-name>
@@ -31,7 +31,7 @@
 </servlet-mapping>
 
     <servlet-name>Database</servlet-name>
-    <servlet-class>com.MyPackage.Database</servlet-class>
+    <servlet-class>MyPackage.Database</servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>Database</servlet-name>
@@ -39,7 +39,7 @@
 </servlet-mapping>
 
     <servlet-name>userRegistrationServlet</servlet-name>
-    <servlet-class>com.MyPackage.userRegistrationServlet</servlet-class>
+    <servlet-class>MyPackage.userRegistrationServlet</servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>userRegistrationServlet</servlet-name>
