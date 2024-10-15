@@ -1,0 +1,155 @@
+@charset "ISO-8859-1";
+body{
+background-color:#ff8080 ;
+  background-position: top;
+  	background-image: url("./img/firebgnd.png") ;
+
+  background-repeat: no-repeat;
+	align-items:center;
+	justify-content:center;
+  text-align: center;
+	display:flex;
+	flex-direction:column;
+
+}
+.contain{
+
+  background-position: center;
+	align-items:center;
+	justify-content:center;
+  text-align: left;
+	display:flex;
+	flex-direction:column;
+	width:550px;
+	height:550px;
+	border-color:black;
+	font-weight:bold;
+	border-radius:15px;
+  background: #dfc5ac;
+}
+.inp{
+	display: flex;
+	flex-direction: row;
+	align-items: bottum;
+	padding:  0 0 0 0;
+	margin: 0px ;
+	width: content;
+	height: content;
+}
+
+#n.inp,#ph.inp,#eml.inp,#pass.inp,#chnl.inp,#wdgt.inp{
+	flex-direction: column;
+	padding-left: 10px;
+	padding:2px 0px 0px 5px;
+	
+}
+hr{
+	margin:0px;
+	padding: 0px;
+}
+#RL1.RLabel{
+	padding: 5px 0px 0px 5px;
+}
+
+.Reg{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+	font-size: 20px;
+
+}
+#RLabel.Reg,#Rinpput.Reg{
+		display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:center;
+	margin: 0px;
+	padding: 0px;
+
+}
+#ipt.Regin {
+	width:250px;
+	height:25px;
+	border:none transparent;
+	background: none ;
+	padding :0px; 
+	padding-top: 5px;
+}
+.search-box {
+	width:250px;
+	height:25px;
+	border:none transparent;
+	background: none ;
+	padding :0px; 
+	padding-top: 0px;
+}
+#Rinp.Rinppt{
+	padding-bottom: 0px;
+}
+#Regbtn.Reg{
+	width:250px;
+	height:40px;
+	align-items:center;
+	justify-content:center;
+	align-self:center;
+	justify-self:center;
+  text-align: center;
+  margin:30px 0 0 0 ;  
+  padding: 0 0 0 0;
+  background: #c08d5f;
+ font-size:25px;
+ border-radius:25px;
+ border-color:green;
+ font-weight:bold;
+}
+
+
+        .selectBox {
+        	width:100%;
+        	position:relative;
+            margin-bottom: 5px;
+        }
+
+        .options {
+            display: none;
+            list-style: none;
+            padding: 0;
+            position: fixed;
+            height:20%;
+            border-bottom: 1px solid #ccc;
+         overflow-y: auto  ;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    border-bottom: 1px solid #ccc;
+    min-width: 20%; /* Set a minimum width */
+    background-color: white;
+         z-index: 1;
+         
+         font-size: 15px;
+        }
+
+        .options li {
+            padding: 5px;
+            cursor: pointer;
+                        max-height:30%;
+        }
+
+        .options li:hover {
+            background-color: #f0f0f0;
+        }
+
+        .selected-option {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .invalid {
+            border-bottom-color: red;
+        }
+
+        .error-message {
+            color: red;
+            display: none;
+            font-size: 14px;
+            margin-top: 5px;
+        }

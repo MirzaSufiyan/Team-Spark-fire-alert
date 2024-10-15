@@ -1,0 +1,150 @@
+@charset "ISO-8859-1";
+body{
+  background-color: rgb(177, 17, 5);
+	background-image: url("./img/firebgnd.png") ;
+  background-position: center;
+    background-size:cover ;
+  background-repeat: no-repeat;
+	align-items:center;
+	justify-content:center;
+  text-align: center;
+	display:flex;
+	flex-direction:column;
+}
+
+.btncnt{
+	color: red;
+	align-items:center;
+	justify-content:center;
+	display:flex;
+	flex-direction:column;
+
+
+}
+
+#logbtn{
+  appearance: button;
+  background-color: #ff8000;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  	margin: 10px 10px 10px 15px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+#regbtn {
+  appearance: button;
+  background-color: #00ff00;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  	margin: 10px 10px 10px 10px;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.contain{
+	align-items:center;
+	justify-content:center;
+	display:flex;
+
+  /* background-color: yellowgreen; */
+  width: 300px;
+  height: 400px;
+}
+body{
+background-color:#ff8080 ;
+  background-position: center;
+  	background-image: url("./img/logbgnd.png") ;
+    background-size:cover ;
+  background-repeat: no-repeat;
+	align-items:center;
+	justify-content:center;
+  text-align: center;
+	display:flex;
+	flex-direction:column;
+
+}
+.contain{
+
+  background-position: center;
+	align-items:center;
+	justify-content:center;
+  text-align: left;
+	display:flex;
+	flex-direction:column;
+	width:600px;
+	height:500px;
+	border-color:black;
+	font-weight:bold;
+	border-radius:25px;
+	
+}
+
+.log{
+	font-size:18px;
+	margin:2px 0px 0px 10px;
+	border-radius:5px;
+	text-align:center;
+
+}
+#ipt.log{
+	width:250px;
+	height:25px;
+
+	border-radius:5px;
+}
+#logbtn.log{
+	width:300px;
+	height:50px;
+	align-items:center;
+	justify-content:center;
+  text-align: center;
+  margin:30px 0 0 0 ;  
+  padding: 0 0 0 0;
+  background-color:green; 
+ font-size:30px;
+ border-radius:25px;
+ border-color:green;
+ font-weight:bold;
+}
