@@ -5,6 +5,7 @@
          id="WebApp_ID" version="5.0">
     <display-name>FireAlertProject</display-name>
     <welcome-file-list>
+             
         <welcome-file>index.jsp</welcome-file>
 
         <welcome-file>default.jsp</welcome-file>
