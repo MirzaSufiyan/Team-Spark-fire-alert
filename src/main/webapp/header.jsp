@@ -34,7 +34,6 @@ String phonenum=null;
     </div>
     <nav class="nav">
         <ul class="nav-links">
-            <li><a href="liveMonitor.jsp">Trial</a></li>
             <li><a href="profile.jsp">Profile</a></li>
             <li><a href="dashboard.jsp">Dashboard</a></li>
             <li class="dropdown">
@@ -45,8 +44,6 @@ String phonenum=null;
                     <a href="servicePoliceStation.jsp">Police Station</a>
                 </div>
             </li>
-            <li class="center"><a href="#">Option 1</a></li>
-            <li class="center"><a href="#">Option 2</a></li>
             <li class="forward"><a href="#">About Us</a></li>
         </ul>
     </nav>

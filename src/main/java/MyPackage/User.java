@@ -27,7 +27,7 @@ public class User {
             ResultSet rs = s.executeQuery();
             while (rs.next()) {
                 this.password = rs.getString("password");
-                 this.name = rs.getString("naam");
+                this.name = rs.getString("naam");
                 this.email = rs.getString("email");
                 this.channel = rs.getString("channelid");
                 this.wdgt1 = rs.getString("widget1");

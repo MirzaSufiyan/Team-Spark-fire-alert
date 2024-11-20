@@ -44,7 +44,7 @@ try {
     Class.forName("com.mysql.cj.jdbc.Driver");
     Connection conn = DriverManager.getConnection(db.getConnectionUrl());
     Statement stmt = conn.createStatement();
-    ResultSet rs = stmt.executeQuery("select * from fireStationList");
+    ResultSet rs = stmt.executeQuery("select * from SfireStationList");
     while (rs.next()) {
     	Map<String, String> station = new HashMap<>();
         station.put("name", rs.getString("nameOfStation"));
@@ -54,7 +54,7 @@ try {
     }
     rs.close();
 
-    rs = stmt.executeQuery("select * from hospitalList");
+    rs = stmt.executeQuery("select * from ShospitalList");
     while (rs.next()) {
         Map<String, String> hospital = new HashMap<>();
         hospital.put("name", rs.getString("nameOfHospital"));
@@ -63,7 +63,7 @@ try {
     }
     rs.close();
 
-    rs = stmt.executeQuery("select * from policeStationList");
+    rs = stmt.executeQuery("select * from SpoliceStationList");
     while (rs.next()) {
     	Map<String, String> station = new HashMap<>();
         station.put("name", rs.getString("nameOfStation"));
